@@ -43,7 +43,25 @@
 
 ## Visualization
 
-[Interactive Goals Chart](./goals_vs_ga.png)
+### La Liga Performance
+
+- Performance trends (Total Goals vs Rank)
+
+- Defensive Weakness (Goals-For, Goals-Against, Goals-Difference):
+
+  - **Note:** This is a [basic interactive plot](outputs/html/goals_vs_ga.html), you can interact with it by either downloading it and open locally in your browser, or upload this notebook to Google Colab.
+
+![Goals vs GA](outputs/figures/goals_vs_ga.png)
+
+- Finishing Efficiency (Goals-For vs Expected Goal): 
+
+### UCL Performance
+
+### Financial
+
+- Transfer Spend (M€):
+  
+- Squad Cost Limit (M€)
 
 ## Conclusion
 
@@ -56,3 +74,5 @@
 - Clone the repo
 - Install dependencies (pandas, matplotlib, seaborn)
 - Open FCB_performance_analysis.ipynb in Jupyter Notebook
+- Optional: use Google Colab to experience interactive plots
+
