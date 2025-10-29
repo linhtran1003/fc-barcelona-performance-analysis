@@ -43,6 +43,8 @@
 
 ## Visualization
 
+[Interactive Goals Chart](outputs/figures/goals_vs_ga.html)
+
 ## Conclusion
 
 - Over the past decade, FC Barcelona’s journey from dominance to reconstruction reflects the deep interplay between financial constraints, tactical transition, and player turnover.
