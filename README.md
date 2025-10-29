@@ -43,7 +43,7 @@
 
 ## Visualization
 
-[Interactive Goals Chart](outputs/figures/goals_vs_ga.html)
+[Interactive Goals Chart](goals_vs_ga.html)
 
 ## Conclusion
 
