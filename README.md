@@ -3,12 +3,50 @@
 ## Project Overview and Motivation
 
 - After their peak in 2014/2015, FC Barcelona has transitioned from European dominance to facing recurring challenges in both domestic and continental competitions. This project analyzes FC Barcelona's performance trends over the past decade (2014–2025) in domestic (La Liga) and international (UEFA Champions League) competitions. It explores attacking and defensive metrics, finishing efficiency, and financial factors such as transfer spending and squad cost limits to identify potential drivers behind the club’s recent decline and rebuilding phase.
+- By integrating multiple datasets and applying advanced analytics, the project aims to answer a central question
 
-## Tools and Technologies
+  > *How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?*
 
-- Python (pandas, numpy, matplotlib, seaborn)
+## Tools and Techniques
+
+### Tools
+
+- Python (pandas, matplotlib, seaborn)
 - Jupyter Notebook
 - Github for version control and project sharing
+
+### Techniques
+
+- **Data collection & preparation**
+  - Multi-source data integration (performance + financial data)
+  - Manual data extraction from official websites
+  - Cleaning & standardizing inconsistent formats
+
+- **Data transformation & feature engineering**
+  - `groupby` aggregations for season-level and situation-level metrics
+  - Derived metrics:
+    - Finishing efficiency (GF/xG)
+    - Defensive efficiency (GA/xGA)
+  - Merging datasets to create analysis-ready tables
+
+- **Exporatory Data Analysis (EDA)**
+  - Trend and time-series analysis
+  - Comparative analysis across competitions
+  - Correlation heatmaps
+  - Contextual football interpretation (injuries, departures, tactical shifts)
+
+- **Visualization (matplotlib, seaborn, and plotly)**
+  - Line plots for trend analysis (Goals, Rank, Squad Cost Limit)
+  - Bar plots for efficiency metrics by ball situation
+  - Dual-axis plots (e.g., Goals vs Rank)
+  - Multi-team comparative plots (FCB vs Real Madrid)
+  - Heatmaps for correlation analysis
+  - Interactive Plotly dashboard that summarizes the key aspects of the project
+
+- **Critical thinking & Problem solving**
+  - Identifying causation vs correlation between finances and performance
+  - Explaining performance fluctuations using contextual factors (player transfers, injuries, coaching, financial regulations)
+  - Recognizing dataset limitations and adapting methodology accordingly (e.g., manual table creation)
 
 ## Key Analysis and Findings
 
