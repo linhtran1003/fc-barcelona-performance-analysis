@@ -1,16 +1,16 @@
 # Project Title: Performance Analysis of FC Barcelona - A Decade of Evolution and Recurring Challenges in Competitions
 
-## Project Overview and Motivation
+## Executive Summary and Motivation
 
-Following their peak in the 2014/15 treble-winning season, FC Barcelona entered a turbulent period marked by declining performance, high transfer expenditure, and financial instability. The analysis integrates multiple datasets and uses Python for data cleaning, visualization, and correlation analysis. It highlights key turning points, including the post-Messi era, financial crises, and managerial changes, offering a data-driven perspective on the club’s evolution.
+This project explores FC Barcelona’s performance trends across La Liga and the UEFA Champions League between 2014 and 2025, integrating financial metrics such as transfer spending and squad cost limits. The analysis provides insights into how squad efficiency, managerial changes, and financial constraints shaped the club’s competitive trajectory.
 
-- **Key Highlights:**
-- Interactive and static visualizations for domestic and international performance.
-- Evaluation of finishing efficiency based on xG and goal metrics.
-- Financial analysis linking transfer spending and squad cost limit to on-field results.
-- Correlation analysis revealing how financial constraints influenced performance trends.
+**Motivation**: After the 2014/15 treble-winning season, Barcelona faced a decade of highs and lows, including performance decline, financial instability, and restructuring. This project uses data to uncover the causes behind these patterns.
 
-The goal is to provide a data-driven explanation of Barcelona’s transition from European dominance to instability and ongoing rebuilding.
+**Key Insight**s: A decade of FC Barcelona’s domestic and international performance, finishing efficiency, and financial trends.
+
+![Key Insights](./outputs/figures/overall_key_insights.png)
+
+> This is an interactive dashboard created by `plotpy`. Run in Google Colab or a local environment with Plotly installed to explore more information on the plot.
 
 ## Tools and Technologies
 
@@ -21,16 +21,12 @@ The goal is to provide a data-driven explanation of Barcelona’s transition fro
 
 ## Techniques & Skills Demonstrated
 
-- Multi-source data integration
-- Cleaning & preprocessing (column standardization, numeric conversions, deduplication)
-- Feature engineering:
-  - Standardized season format (e.g., 2014/15 → 14/15)
-  - Finishing & defensive efficiency metrics (GF/xG, GA/xGA)
-  - Aggregated season-level datasets for combined analysis
-- Exploratory Data Analysis (EDA)
-- Statistical & trend analysis
-- Correlation analysis
-- Interactive visualizations (Plotly, when relevant)
+- Multi-source data integration and preprocessing
+- Cleaning & standardization (season formatting, numeric conversion)
+- Feature engineering: finishing efficiency (GF/xG), defensive efficiency (GA/xGA)
+- Exploratory Data Analysis (EDA) and trend analysis
+- Correlation analysis between financial and performance metrics
+- Static and interactive visualizations
 
 ## Key Analysis and Findings
 
@@ -57,7 +53,7 @@ The goal is to provide a data-driven explanation of Barcelona’s transition fro
 
 ### 🟠 Financial Context
 
-- Over €1.1B spent between 2016–2020 with minimal impacts and poor returns on investments
+- €1.1B+ spent between 2016–2020 with minimal impacts and poor returns on investments
 - Squad Cost Limit collapsed after 2020, reaching negative levels in 2021/22.
 - Financial restrictions directly correlate with weaker on-field performance.
 
@@ -70,8 +66,6 @@ The goal is to provide a data-driven explanation of Barcelona’s transition fro
 ![Goals vs Rank](outputs/figures/goals_vs_rank.png)
 
 - **Defensive Weakness** (Goals-For, Goals-Against, Goals-Difference):
-
-  > **Note:** This is a [basic interactive plot](outputs/html/goals_vs_ga.html), you can interact with it by upload this notebook to Google Colab.
 
 ![Goals vs GA](outputs/figures/goals_vs_ga.png)
 
@@ -106,8 +100,8 @@ The project demonstrates how long-term football performance can only be understo
 ## How to run
 
 - Clone the repo
-- Install dependencies (pandas, matplotlib, seaborn)
-- Open FCB_performance_analysis.ipynb in Jupyter Notebook
+- Install dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotply` (optional)
+- Open `FCB_performance_analysis.ipynb` in Jupyter Notebook
 - For interactive charts, run in Google Colab or a local environment with Plotly installed.
 
 ## Limitations & Potential Improvements in The Future
@@ -115,10 +109,10 @@ The project demonstrates how long-term football performance can only be understo
 **Limitations:**
 
 - Limited dataset granularity: match-level stats and player-level contributions are not considered
-- Some financial data, like exact salary breakdowns or revenue, are unavailable or approximate.
+- Financial data are unavailable or approximate.
 
 **Future Work:**
 
 - Integrate match-level or player-level datasets for advanced metrics (e.g., xGA, pressing, possession).  
-- Explore advanced visualization tools (interactive dashboards like Power BI) for deeper storytelling.  
-- Compare FC Barcelona to other top clubs over the same decade to identify structural differences.
+- Develop interactive dashboards for storytelling.
+- Comparative analysis with other top clubs over the same period.
