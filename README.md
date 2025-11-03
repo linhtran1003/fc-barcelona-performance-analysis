@@ -2,13 +2,13 @@
 
 ## Project Overview and Motivation
 
-Following their peak in the 2014/15 treble-winning season, FC Barcelona entered a turbulent period marked by declining performance, high transfer expenditure, and financial instability. This project uses data analytics to explore:
+Following their peak in the 2014/15 treble-winning season, FC Barcelona entered a turbulent period marked by declining performance, high transfer expenditure, and financial instability. The analysis integrates multiple datasets and uses Python for data cleaning, visualization, and correlation analysis. It highlights key turning points, including the post-Messi era, financial crises, and managerial changes, offering a data-driven perspective on the club’s evolution.
 
-- How Barcelona’s on-pitch performance evolved over the past decade
-- How finishing efficiency, defensive metrics, and squad structure changed
-- How transfer spending and La Liga’s Squad Cost Limit shaped team performance
-- Why the club struggled in the UEFA Champions League
-- Whether financial indicators correlate with competitive outcomes
+- **Key Highlights:**
+- Interactive and static visualizations for domestic and international performance.
+- Evaluation of finishing efficiency based on xG and goal metrics.
+- Financial analysis linking transfer spending and squad cost limit to on-field results.
+- Correlation analysis revealing how financial constraints influenced performance trends.
 
 The goal is to provide a data-driven explanation of Barcelona’s transition from European dominance to instability and ongoing rebuilding.
 
@@ -20,7 +20,6 @@ The goal is to provide a data-driven explanation of Barcelona’s transition fro
 - (Optional) **Plotly** for interactive visualizations  
 
 ## Techniques & Skills Demonstrated
-
 
 - Multi-source data integration
 - Cleaning & preprocessing (column standardization, numeric conversions, deduplication)
@@ -110,3 +109,16 @@ The project demonstrates how long-term football performance can only be understo
 - Install dependencies (pandas, matplotlib, seaborn)
 - Open FCB_performance_analysis.ipynb in Jupyter Notebook
 - For interactive charts, run in Google Colab or a local environment with Plotly installed.
+
+## Limitations & Potential Improvements in The Future
+
+**Limitations:**
+
+- Limited dataset granularity: match-level stats and player-level contributions are not considered
+- Some financial data, like exact salary breakdowns or revenue, are unavailable or approximate.
+
+**Future Work:**
+
+- Integrate match-level or player-level datasets for advanced metrics (e.g., xGA, pressing, possession).  
+- Explore advanced visualization tools (interactive dashboards like Power BI) for deeper storytelling.  
+- Compare FC Barcelona to other top clubs over the same decade to identify structural differences.
