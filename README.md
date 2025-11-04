@@ -71,9 +71,8 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 
 ![Transfer Spending](./outputs/figures/transfer_expenditures.png)
 
-- From 2014 to 2020, the club maintained a stable financial status, reflected in consistently high levels of transfer spending and the freedom to pursue marquee signings. Between 2016–2020, Barcelona spent over €1.1B, but major signings produced weak return on investment.
-- The post-Neymar spending spike (2017/18) marks the beginning of financial instability, with multiple high-cost transfers in an attempt to replace Neymar's impact but fail to match expectations. This highlights inefficiencies in recruitment strategy, talent integration, and financial management.
-- After 2020, after years of excessive spending, COVID-19 revenue losses, and structural mismanagement, had left them in severe debt, forcing reliance on free transfers and academy graduates as the results of La Liga salary cap restrictions.
+- From 2014 to 2020, the club maintained a stable financial status, reflected in consistently high levels of transfer spending and the freedom to pursue marquee signings. Between 2016–2020, Barcelona spent over €1.1B, specifically in 2017 when they spent more than 3 times of their previous transfers with multiple high-cost contracts in an attempt to replace Neymar's impact after his departure but fail to match expectations. This also marks the beginning of financial instabilities and highlights inefficiencies in recruitment strategy, talent integration, and financial management.
+- After 2020, their transfer sum decreased significantly after years of excessive spending, COVID-19 revenue losses, and structural mismanagement, forcing reliance on free transfers and academy players as the results of La Liga salary cap restrictions.
 - Transfer spending patterns directly mirror the team’s performance cycle: heavy spending → inefficiency → financial collapse → rebuilding.
 - **Overall**, this analysis demonstrates that Barcelona’s current financial struggles are not isolated incidents but rather the cumulative result of poor transfer market management during their most lavish years. The reduction in transfer expenditure after 2020 was less a matter of choice than a reflection of financial necessity, marking the beginning of a new, restrictive phase shaped by La Liga’s economic controls.
 
