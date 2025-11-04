@@ -6,7 +6,7 @@
 
 This project explores FC Barcelona’s performance trends across La Liga and the UEFA Champions League between 2014 and 2024/25, integrating financial metrics such as transfer spending and squad cost limits. The analysis provides insights into how squad depth, managerial changes, and financial constraints shaped the club’s competitive instability.
 
-- **Research Question**:
+**Research Question**:
 
 > *How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?*
 
@@ -24,8 +24,8 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 
 ## Data Overview
 
-- **La Liga season-level Stats (2014–2025)** - Contains season-by-season performance metrics such as Goals For (GF), Goals Against (GA), Expected Goals (xG), Goal Difference (GD), and final league rank
-- **Deeper ball situations breakdown** - Ppen play, free kicks, corners
+- **La Liga season-level Stats (2014–2025)** - Contains season-by-season performance metrics such as Goals For (GF), Goals Against (GA), Goal Difference (GD), and final league rank
+- **Deeper ball situations breakdown** - Ball situations (open play, free kicks, corners) & Expected Goals (xG) based on situation
 - **UEFA Champions League Stats (2014–2025)** - Includes stage progression (Group, Round of 16, QF, SF, Final), goals, and match outcomes
 - **Transfer Market Data** - Transfer spend (€M)
 - **Squad Cost Limit Data** - Published by La Liga, defines the maximum amount clubs can spend on salaries, amortization, and agent fees.
@@ -72,7 +72,7 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 ![Transfer Spending](./outputs/figures/transfer_expenditures.png)
 
 - From 2014 to 2020, the club maintained a stable financial status, reflected in consistently high levels of transfer spending and the freedom to pursue marquee signings. Between 2016–2020, Barcelona spent over €1.1B, specifically in 2017 when they spent more than 3 times of their previous transfers with multiple high-cost contracts in an attempt to replace Neymar's impact after his departure but fail to match expectations. This also marks the beginning of financial instabilities and highlights inefficiencies in recruitment strategy, talent integration, and financial management.
-- After 2020, their transfer sum decreased significantly after years of excessive spending, COVID-19 revenue losses, and structural mismanagement, forcing reliance on free transfers and academy players as the results of La Liga salary cap restrictions.
+- Since 2020, their transfer sum decreased significantly after years of excessive spending, COVID-19 revenue losses, and structural mismanagement, forcing reliance on free transfers and academy players as the results of La Liga salary cap restrictions.
 - Transfer spending patterns directly mirror the team’s performance cycle: heavy spending → inefficiency → financial collapse → rebuilding.
 - **Overall**, this analysis demonstrates that Barcelona’s current financial struggles are not isolated incidents but rather the cumulative result of poor transfer market management during their most lavish years. The reduction in transfer expenditure after 2020 was less a matter of choice than a reflection of financial necessity, marking the beginning of a new, restrictive phase shaped by La Liga’s economic controls.
 
@@ -80,11 +80,11 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 
 ![Squad Cost Limit Comparison](./outputs/figures/squad_cost_limit.png)
 
-- The analysis of FC Barcelona's financial situation can be interpreted further by its Squad Cost Limit in La Liga compared to their rival, Real Madrid. While performance data and transfer data were available from 2014 onward, official financial data (Squad Cost Limit) is only published from 19/20 season. Squad Cost Limit (LCPD) is a measure set by La Liga which define the maximum amount a club may spend on registered players, coaching staff, and youth system expenses (including salaries, amortizations, and agent fees). 
+- The analysis of FC Barcelona's financial situation can be interpreted further by its Squad Cost Limit in La Liga compared to their rival, Real Madrid. While performance data and transfer data were available from 2014 onward, official financial data (Squad Cost Limit) is only published from 19/20 season. Squad Cost Limit (LCPD) is a measure set by La Liga which define the maximum amount a club may spend on registered players, coaching staff, and youth system expenses (including salaries, amortizations, and agent fees).
 - From 2019 to current season, FC Barcelona's Squad Cost Limit experienced major fluctuations that closely reflects their sporting performance trends:
-  - Barcelona’s Squad Cost Limit collapsed from €671M (19/20) to negative levels in 21/22, forcing the club under a restrictive “1:4” - allowing only 25% reinvestment of income rule - and contributing to Messi’s departure.
+  - Barcelona’s Squad Cost Limit collapsed from €671M (19/20) to negative levels in 21/22, forcing the club under a restrictive “1:4” - allowing only 25% reinvestment of income rule - limiting their ability to renew contract of key players such as Messi and and sign new high-quality players.
   - In the 2022/23 season, the club saw a temporary recovery of the limit due to the activation of the four "economic fever", including the sales of 25% of future television rights and other assets of the club such as 49% of Barça Studio. The limit rebounded to €656M, supporting key transfer and winning the La Liga title of the season.
-  - However, financing the club's future can only exchange for short-term liquidity. Although the Squad Cost Limit initially improved in 24/25, it declined slightly this current season (25/26). Unvalidated revenue from the sale of VIP seats and delayed return to the Spotify Camp Nou reduced expected income, limiting summer transfer signings. 
+  - However, financing the club's future can only exchange for short-term liquidity as from 2023/24 til now, it is clearly shown that the club's financial situation continues fluctuating. Although the Squad Cost Limit initially improved in 24/25, it declined slightly this current season (25/26). Unvalidated revenue from the sale of VIP seats and delayed return to the Spotify Camp Nou reduced expected income, limiting summer transfer signings. 
 - Real Madrid, meanwhile, remained stable above €700M, highlighting divergent financial trajectories between the two rivals.
 - **Overall**: Financial constraints correlate with performance: poorer seasons coincide with the lowest salary caps, reduced squad depth, and restricted transfer activity
 
