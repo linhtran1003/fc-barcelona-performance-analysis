@@ -2,15 +2,15 @@
 
 ## Executive Summary
 
-This project explores FC Barcelona’s performance trends across La Liga and the UEFA Champions League between 2014 and 2024/25, integrating financial metrics such as transfer spending and squad cost limits. The analysis provides insights into how squad depth, managerial changes, and financial constraints shaped the club’s competitive instability.
-
 **Motivation**: After the 2014/15 treble-winning season, Barcelona faced a decade of highs and lows, including performance decline, financial instability, and restructuring. This project uses data to uncover the causes behind these patterns, and how they correlate with each other.
+
+This project explores FC Barcelona’s performance trends across La Liga and the UEFA Champions League between 2014 and 2024/25, integrating financial metrics such as transfer spending and squad cost limits. The analysis provides insights into how squad depth, managerial changes, and financial constraints shaped the club’s competitive instability.
 
 - **Research Question**:
 
 > *How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?*
 
-## Overall Summary of the Analysis
+## Overall Visualization of the Analysis
 
 ![Overall Insights](./outputs/figures/overall_key_insights.png)
 
