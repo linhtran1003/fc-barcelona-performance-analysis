@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="./FC_Barcelona_(crest).svg.png" alt="FCB logo" width="220" />
+</p>
+
 # Performance and Financial Analysis of FC Barcelona - A Decade of Evolution and Recurring Challenges in Competitions
+
 
 ## Executive Summary
 
@@ -84,16 +89,16 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 - From 2019 to current season, FC Barcelona's Squad Cost Limit experienced major fluctuations that closely reflects their sporting performance trends:
   - Barcelona’s Squad Cost Limit collapsed from €671M (19/20) to negative levels in 21/22, forcing the club under a restrictive “1:4” - allowing only 25% reinvestment of income rule - limiting their ability to renew contract of key players such as Messi and and sign new high-quality players.
   - In the 2022/23 season, the club saw a temporary recovery of the limit due to the activation of the four "economic fever", including the sales of 25% of future television rights and other assets of the club such as 49% of Barça Studio. The limit rebounded to €656M, supporting key transfer and winning the La Liga title of the season.
-  - However, financing the club's future can only exchange for short-term liquidity as from 2023/24 til now, it is clearly shown that the club's financial situation continues fluctuating. Although the Squad Cost Limit initially improved in 24/25, it declined slightly this current season (25/26). Unvalidated revenue from the sale of VIP seats and delayed return to the Spotify Camp Nou reduced expected income, limiting summer transfer signings. 
-- Real Madrid, meanwhile, remained stable above €700M, highlighting divergent financial trajectories between the two rivals.
-- **Overall**: Financial constraints correlate with performance: poorer seasons coincide with the lowest salary caps, reduced squad depth, and restricted transfer activity
+  - However, financing the club's future can only exchange for short-term liquidity as from 2023/24 til recently, the club's financial situation continues fluctuating. Although the Squad Cost Limit initially improved in 24/25, it declined slightly this current season (25/26). Unvalidated revenue from the sale of VIP seats and delayed return to the Spotify Camp Nou reduced expected income, limiting summer transfer signings.
+- Real Madrid, meanwhile, remained stable above €700M after experiencing slightly declined in 20/21 due to COVID-19, highlighting divergent financial trajectories between the two rivals.
+- **Overall**: Financial constraints correlate with performance: poorer seasons coincide with the lowest salary caps, restricted transfer activity, and reduced squad depth.
 
 ### Correlation Between Financial Constraints and Team Performance
 
 ![Financial Constraints and Team Performance Correlation](./outputs/figures/financial_and_winrate_correlation.png)
 
 - Positive correlation between Squad Cost Limit and Win Rate, showing financial flexibility improves competitive performance. While transfer spending & win rate shows weaker correlation, reinforcing that the problem wasn’t money spent, but **money spent inefficiently**.
-- Financial and performance variables align strongly after 2020, indicating the club’s competitive decline was deeply financial, not only tactical.
+- Financial and performance variables align strongly after 2020, indicating the club’s competitive decline was deeply tied with financial, not only tactical.
 
 ## Conclusion
 
@@ -101,15 +106,17 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 
 - Squad mismanagement (2017–2020) created structural weaknesses
 - Financial collapse (2020–2022) restricted squad-building capacity
-- Efficiency declines (finishing and defensive) negatively impacted results
+- Efficiency declines (finishing and defensive) negatively final outcomes
 - UCL performance drop mirrors domestic instability
 - Financial flexibility strongly predicts competitive performance
+- Overall, the **correlation between financial constraints and team performance** is evident: Financial restrictions have reduced squad's depth as the club is unable to sign high-quality players, increasing dependence on current key players, who shoudn't be expected to every possible matches.
 
 The project demonstrates how long-term football performance can only be understood by combining data, context, and finance.
 
 ## Recommendation
 
-- Overall, the **correlation between financial constraints and team performance** is evident: Financial restrictions have reduced squad's depth as the club is unable to sign high-quality players, increasing dependence on current key players. FC Barcelona's challenges extends beyond tactics - the club **must restore its long-term financial stability** to rebuild their position as one of top-tier clubs and regain their competitiveness against other rivals.
+- FC Barcelona's challenges extends beyond tactics - the club **must restore its long-term financial stability** to rebuild their position as one of top-tier clubs and regain their competitiveness against other rivals.
+- Whether in financial crisis or when restored to its stable state, it is important to effectively and responsivly manage their recruitment strategies when signing players.
 
 ## How to run
 
