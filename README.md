@@ -4,13 +4,10 @@
   </p>
 </div>
 
-<h1 align="center">
+<h1 align="center" style="border-bottom: none; padding-bottom: 0;">
     Performance and Financial Analysis of FC Barcelona
-    <br>
-    <span style="font-size: 22px">
-        A Decade of Evolution and Recurring Challenges in Competitions
-    </span>
 </h1>
+<h2 align="center">A Decade of Evolution, Challenges, and Strategic Insights</h2>
 
 ## Background & Overview
 After the historic treble in 2014/15, FC Barcelona faced a decade of highs and lows. On-field performance fluctuated, defensive stability declined, and financial instability forced major structural adjustments. This project investigates the club’s:
