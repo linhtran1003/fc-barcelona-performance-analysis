@@ -1,11 +1,18 @@
-<p align="center">
-  <img src="./FC_Barcelona_(crest).svg.png" alt="FCB logo" width="220" />
-</p>
+<div>
+  <p align="center">
+    <img src="./FC_Barcelona_(crest).svg.png" alt="FCB logo" width="200" />
+  </p>
+</div>
 
-# Performance and Financial Analysis of FC Barcelona - A Decade of Evolution and Recurring Challenges in Competitions
+<h1 align="center">
+    Performance and Financial Analysis of FC Barcelona
+    <br>
+    <span style="font-size: 22px;">
+        A Decade of Evolution and Recurring Challenges in Competitions
+    </span>
+</h1>
 
-
-## Executive Summary
+## Background & Overview
 
 **Motivation**: After the 2014/15 treble-winning season, Barcelona faced a decade of highs and lows, including performance decline, financial instability, and restructuring. This project uses data to uncover the causes behind these patterns, and how they correlate with each other.
 
@@ -15,27 +22,37 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 
 > *How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?*
 
-## Overall Visualization of the Analysis
-
-![Overall Insights](./outputs/figures/overall_key_insights.png)
-
-- This project provides a decade-long evaluation of FC Barcelona’s performance, efficiency, and financial health. The visualization above highlights the main takeaways:
-  - **Performance Decline After 2016**: Both attacking and defensive metrics deteriorated, leading to win rate also gradually declined.
-  - **Recurring Challenges at UCL**: 7 eliminations at knockout stages of UCL and 2 times demoted to UEL.
-  - **2020–2022 Financial Crisis**: Salary-cap restrictions and mismanaged spending significantly limited squad renewal.
-  - **Rebuilding Era (2022–now)**: Goals and win rate improved, but defensive inconsistency and financial constraints still affect competitiveness.
-
-> This is an interactive dashboard created by `plotpy`. Run in Google Colab or a local environment with Plotly installed to explore more information on the plot.
-
 ## Data Overview
 
-- **La Liga season-level Stats (2014–2025)** - Contains season-by-season performance metrics such as Goals For (GF), Goals Against (GA), Goal Difference (GD), and final league rank
-- **Deeper ball situations breakdown** - Ball situations (open play, free kicks, corners) & Expected Goals (xG) based on situation
-- **UEFA Champions League Stats (2014–2025)** - Includes stage progression (Group, Round of 16, QF, SF, Final), goals, and match outcomes
+- **La Liga season-level Stats (2014–2024/25)** - Contains season-by-season performance metrics such as Goals For (GF), Goals Against (GA), Goal Difference (GD), and final league rank
+- **Deeper ball situations breakdown** - Open play, free kicks, corners & Expected Goals (xG) based on situation
+- **UEFA Champions League Stats (2014–2024/25)** - Includes stage progression (Group, Round of 16, QF, SF, Final), goals, and match outcomes
 - **Transfer Market Data** - Transfer spend (€M)
 - **Squad Cost Limit Data** - Published by La Liga, defines the maximum amount clubs can spend on salaries, amortization, and agent fees.
 
-## Visualizations and Findings
+## Executive Summary
+
+![Overall Insights](./outputs/figures/overall_key_insights.png)
+
+This project provides a decade-long evaluation of FC Barcelona’s performance, efficiency, and financial health. The visualization above highlights the main takeaways:
+
+1. **Performance Decline After 2016**:
+
+   - Both attacking and defensive metrics deteriorated, leading to win rate also gradually declined.
+2. **Recurring Challenges at UCL**:
+
+   - 7 eliminations at knockout stages of UCL and 2 times demoted to UEL.
+3. **2020–2022 Financial Crisis**:
+
+   - Revenue loss due to COVID-19 & mismanaged spending years before significantly affected salary-cap and limited squad renewal
+
+4. **Rebuilding Era (2022–now)**:
+
+   - Goals and win rate improved, but defensive inconsistency and financial constraints still affect competitiveness.
+
+> This is an interactive dashboard created by `plotpy`. Run in Google Colab or a local environment with Plotly installed to explore more information on the plot.
+
+## Insight Deep Dive & Visualizations
 
 ### 🟣 Insights About FC Barcelona's Performance in Domestic Competition over The Past Decade
 
