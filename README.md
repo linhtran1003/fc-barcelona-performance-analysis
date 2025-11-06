@@ -20,7 +20,7 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 
 **Research Question**:
 
-> *How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?*
+`*How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?*`
 
 ## Data Overview
 
