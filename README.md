@@ -4,12 +4,17 @@
   </p>
 </div>
 
-<h1 align="center" style="border-bottom: none; padding-bottom: 0;">
+<div align="center" style="border-bottom: none; padding-bottom: 0;">
+  <h1 style="border: none; padding: 0; margin: 0;">
     Performance and Financial Analysis of FC Barcelona
-</h1>
-<h2 align="center">A Decade of Evolution, Challenges, and Strategic Insights</h2>
+  </h1>
+  <h2 style="font-size: 22px;">
+    A Decade of Evolution, Challenges, and Strategic Insights
+  </h2>
+</div>
 
 ## Background & Overview
+
 After the historic treble in 2014/15, FC Barcelona faced a decade of highs and lows. On-field performance fluctuated, defensive stability declined, and financial instability forced major structural adjustments. This project investigates the club’s:
 
 - Competitive performance in domestic (La Liga) and international (UEFA Champions League) competitions
@@ -24,11 +29,43 @@ The analysis aims to uncover how financial and operational decisions correlate w
 
 ## Data Overview
 
-- **La Liga season-level Stats (2014–2024/25)** - Contains season-by-season performance metrics such as Goals For (GF), Goals Against (GA), Goal Difference (GD), and final league rank
-- **Deeper ball situations breakdown** - Open play, free kicks, corners & Expected Goals (xG) based on situation
-- **UEFA Champions League Stats (2014–2024/25)** - Includes stage progression (Group Stage, Round of 16, QF, SF, Final), goals, and match outcomes
-- **Transfer Market Data** - Transfer spend (€M)
-- **Squad Cost Limit Data** - Published by La Liga, defines the maximum amount clubs can spend on salaries, amortization, and agent fees.
+<table style="width:100%">
+  <tr>
+    <th>Dataset</th>
+    <th>Coverage</th>
+    <th>Key features</th>
+  </tr>
+
+  <tr>
+    <td>La Liga season-level Stats</td>
+    <td>2014/15 - 2024/25</td>
+    <td>Goals For (GF), Goals Against (GA), Goal Difference (GD), and final league rank</td>
+  </tr>
+
+  <tr>
+    <td>Ball Situations Breakdown</td>
+    <td>2014/15 - 2024/25</td>
+    <td>Open play, free kicks, corners & Expected Goals (xG) based on situation</td>
+  </tr>
+
+  <tr>
+    <td>UEFA Champions League Stats</td>
+    <td>2014/15 - 2024/25</td>
+    <td>Stage progression (Group Stage, Round of 16, QF, SF, Final), goals, and match outcomes</td>
+  </tr>
+
+  <tr>
+    <td>Transfer Market Data</td>
+    <td>2014/15 - 2025/26</td>
+    <td>Transfer spend (€M)</td>
+  </tr>
+
+  <tr>
+    <td>Squad Cost Limit Data</td>
+    <td>2019/20 - 2025/26</td>
+    <td>Maximum allowable spending on salaries, amortization, agent fees</td>
+  </tr>
+</table>
 
 `Note: Squad Cost Limit is officially published from 2019/20 onwards.`
 
@@ -142,7 +179,7 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 - Overall, the **correlation between financial constraints and team performance** is evident: Financial restrictions have reduced squad's depth as the club is unable to sign high-quality players, increasing dependence on current key players, who shouldn’t be expected to perform in every match.
 - **Key Takeaways**:
 
-`Business lesson: Operational and financial efficiency are as critical as talent or resources. Overspending without strategic allocation reduces performance outcomes.`
+`Business lesson: This analysis demonstrates that operational and financial efficiency are as crucial as talent. Long-term success depends on strategic resource allocation, performance monitoring, and financial discipline - lessons relevant across industries.`
 
 ## Recommendations
 
@@ -185,3 +222,4 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 - Exploratory Data Analysis (EDA) and trend analysis
 - Correlation analysis between financial and performance metrics
 - Static and interactive visualizations
+- Linked financial management and operational decisions to performance outcomes, demonstrating decision-making analysis
