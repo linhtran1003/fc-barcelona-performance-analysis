@@ -99,6 +99,8 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
    - UCL progress remains limited due to defensive vulnerabilities
    - Financial restrictions continue to affect transfer strategy and squad depth
 
+`These findings mirror challenges in budget-constrained organizations, showing how financial decisions impact operational performance.`
+
 > This is an interactive dashboard created by `plotpy`. Run in Google Colab or a local environment with Plotly installed to explore more information on the plot.
 
 ## Insight Deep Dive & Visualizations
@@ -192,7 +194,7 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 **Limitations:**
 
 - Limited dataset granularity: match-level stats and player-level contributions are not considered
-- Partial of financial data are unavailable or approximate. (e.g: Squad Cost Limit from 2014-2018)
+- Partial of financial data are unavailable or approximate. (e.g., Squad Cost Limit from 2014-2018)
 
 **Future Work:**
 
