@@ -38,17 +38,32 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 1. **Performance Decline After 2016**:
 
-   - Both attacking and defensive metrics deteriorated, leading to win rate also gradually declined.
-2. **Recurring Challenges at UCL**:
+   - Both attacking and defensive efficiency deteriorated, leading to win rate also gradually declined.
+   - The club performed at the lowest level in 2021/22 both domestically and internationally.
+     - Lowest goals scored (68) and Second highest goals conceded (38) in La Liga
+     - Lowest win rate in La Liga (55.26%)
+     - Demoted to UEFA Europa League (UEL) after failing group stage of UEFA Champions League (UCL)
+2. **Recurring Challenges at International Competitions**:
 
    - 7 eliminations at knockout stages of UCL and 2 times demoted to UEL.
 3. **2020–2022 Financial Crisis**:
 
-   - Revenue loss due to COVID-19 & mismanaged spending years before significantly affected salary-cap and limited squad renewal
-
+   - **2014–2020** marks a period of heavy overspending in the transfer market
+     - Barcelona spent over €1.1B between 2015/16 and 2020/21, accounting for the majority of the €1.6B spent across the full 11-year span.
+     - The 2017/18 season represents the peak, with a record €413M spent.
+   - **In 2021**, financial issues started emerging due to revenue loss during COVID-19 & mismanaged spending years before, significantly affecting salary-cap and limited squad renewal
+   - **By 2022**, the financial crisis reached its deepest point, aligning with a noticeable decline in on-field performance.
+     - Transfer spending fell sharply.
+     - The club’s salary cap even turned negative, forcing major economic adjustments.
 4. **Rebuilding Era (2022–now)**:
 
-   - Goals and win rate improved, but defensive inconsistency and financial constraints still affect competitiveness.
+   - Goals scored and win rate improved
+   - Came back and play at the UCL but still struggles at knockout stages
+   - Defensive inconsistency and financial constraints still affect competitiveness.
+5. **Recommendations**:
+
+   - Rebuild long-term financial stability
+   - Ensure transfer spending is efficient, targeted, and fiscally responsible
 
 > This is an interactive dashboard created by `plotpy`. Run in Google Colab or a local environment with Plotly installed to explore more information on the plot.
 
@@ -58,7 +73,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 ![La Liga Performance Trends](./outputs/figures/goals_vs_rank.png)
 
-- Barcelona’s attacking output peaked between 2014 - 2017 with highest goals scored is 116, after which total goals declined sharply until the low point in 2021/22, declined 41% compared to their peak season.
+- Barcelona’s attacking output peaked between 2014 - 2017 with highest goals scored is 116, after which total goals declined sharply until the lowest point in 2021/22, declined 41% compared to their peak season.
 - Despite fluctuations in goals scored, league rank did not always follow the same pattern, indicating that defensive stability and match consistency also played a crucial role in match and league outcomes.
 - The 2022/23 rebound (fewer goals but improved ranking) reflects tactical restructuring, prioritizing compact defense over pure attacking output.
 
@@ -67,7 +82,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 ![Defensive Weakness Visualizations](./outputs/figures/goals_vs_goals-against.png)
 
 - The line charts above illustrate goals distribution of FCB over the past 10 years. As shown by 2nd chart, the goal difference (goals scored - goals against) decreased gradually after 2016. This indicates that although the team maintained strong attacking numbers throughout the decade, but goals conceded increased steadily after 2016, reducing goal difference each season.
-- The 2021/22 season shows the most severe imbalance: lowest goals scored (68) + unusually high goals conceded (38) which is second highest, producing the decade’s lowest goal difference.
+- The 2021/22 season shows the most severe imbalance: lowest goals scored (68) + unusually high goals conceded (38), producing the decade’s lowest goal difference.
 - The 2022/23 season marked a defensive turnaround as goals conceded dropped to the lowest level in 10 years (20 GA), coinciding with managerial and tactical changes.
 - However, the subsequent 23/24 season raised questions about their consistency. Despite tactical improvement, the team’s defensive performance deteriorated, with goals conceded reaching their highest level in a decade (44). This suggests that besides manager - other factors such as player dependency or financial situation - may have influenced their on-pitch performance, especially in defense.
 
@@ -75,19 +90,20 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 ![Finishing Efficiency Visualization](./outputs/figures/finishing_eff.png)
 
-- The analysis of FC Barcelona finishing efficiency based on Goals-For (GF) and Expected Goals (xG) across different ball situation reveal dinstinct patterns in the team's attacking performance over the last 10 years. Efficiency is measured as the ratio of Goals-For (GF) to Expected Goals (xG), where a ratio above 1 indicates overperformance and below 1 indicates underperformance.
+- The analysis of FC Barcelona finishing efficiency based on Goals-For (GF) and Expected Goals (xG) across different ball situation reveal dinstinct patterns in the team's attacking performance over the last 10 years. Efficiency is measured as the ratio of Goals-For (GF) to Expected Goals (xG) (`GF/xG`), where a ratio above 1 indicates overperformance and below 1 indicates underperformance.
 - **Open play:** Involving the play of live ball, usually contributes the majority of goals of any team. From **2014–2019**, Barcelona slightly overperformed xG in open play, indicating high finishing quality from elite forwards. After **2019/20**, open-play finishing efficiency dropped below 1.0, suggesting fewer clinical chances converted despite similar chance volume.
-- **Set pieces:** Corner kick and freekick are usually parts of set piece but analyzing them separately will provides better understanding and visualization of their performance trend. FC Barcelona showed strong execution in dead-ball scenarios between 2014 and 2019, especially in freekick with an average of 1.38 GF/xG. However, freekick efficiency declined sharply after Messi’s departure (2020), confirming strong dependency on a single specialist.
-- **Overall trend:** Overall finishing inefficiency post-2020 likely contributed to point losses in closer matches, especially when combined with defensive issues., finishing inefficiency, particularly post-2020, may have cost Barcelona decisive points both domestically and internationally.
+- **Set pieces:** Corner kick and freekick are usually parts of set piece but analyzing them separately will provides better understanding and visualization of their performance trend. FC Barcelona showed strong execution in dead-ball scenarios between 2014 and 2019, especially in freekick with an average of 1.38 GF/xG. However, freekick efficiency declined sharply after Messi’s departure (2020), confirming strong dependency on a key player.
+- **Overall trend:** Overall finishing inefficiency post-2020 likely contributed to point losses in closer matches, especially when combined with defensive issues. However, finishing inefficiency, particularly post-2020, may have cost Barcelona decisive points in both domestic and international competitions.
 
 ### 🔵 Insights About Their International Performance
 
 ![UCL Stage Progression and Scoring Trends](./outputs/figures/ucl_stage_progression_and_stats.png)
 
-- Since the 2014/15 UCL title, Barcelona consistently struggled in knock-out rounds, with **7 early exits in the last 10 seasons**, while the other 3 seasons, they couldn't make it to the Quarter-Finals.
+- Since the 2014/15 UCL title, Barcelona consistently struggled in knock-out rounds of UEFA Champions League, with **7 early exits in the last 10 seasons**.
 - Their performance fluctuated post-2018/19 and reached lowest level in 2021/22.They were demoted to the Europa League in 2021/22 and 2022/23 after failing the group stage at UCL, highlighting the club was unable to compete at high-level competition intensity during its financial crisis.
 - Although goals scored slightly improved the following seasons, defensive collapses in key matches (e.g., away legs) severely limited UCL progression.
-- The 2024/25 run (highest goals scored but also highest goals conceded in 10 years and semifinal elimination) again emphasizes a persisten weakness in defense. While their attacking performance remains strong, defensive vulnerabilities at decisive moments continue to limit their success in international competitions.
+- The 2024/25 run again emphasizes a persisten weakness in defense with highest goals scored but also highest goals conceded in 10 years and again eliminated in Semi-Finals.
+- While their attacking performance significantly improves and remains relatively strong, defensive vulnerabilities at decisive moments continue to limit their success in international competitions.
 
 ### 🟠 Insights About Amount Spending on Transfer Market
 
@@ -130,10 +146,24 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 
 The project demonstrates how long-term football performance can only be understood by combining data, context, and finance.
 
-## Recommendation
+## Recommendations
 
 - FC Barcelona's challenges extends beyond tactics - the club **must restore its long-term financial stability** to rebuild their position as one of top-tier clubs and regain their competitiveness against other rivals.
 - Whether in financial crisis or when restored to its stable state, it is important to effectively and responsivly manage their recruitment strategies when signing players.
+
+## Limitations & Potential Improvements in The Future
+
+**Limitations:**
+
+- Limited dataset granularity: match-level stats and player-level contributions are not considered
+- Partial of financial data are unavailable or approximate. (e.g: Squad Cost Limit from 2014-2018)
+
+**Future Work:**
+
+- Integrate match-level or player-level datasets for advanced metrics (e.g., xGA, pressing, possession).  
+- Develop interactive dashboards for storytelling.
+- Include amount earned from transfer departures to have better understanding about their earning & spending habit, and to determine whether this factor will emphasize their weakness in financial management.
+- Comparative analysis with other top clubs over the same period.
 
 ## How to run
 
@@ -141,20 +171,6 @@ The project demonstrates how long-term football performance can only be understo
 - Install dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotply` (optional)
 - Open `FCB_performance_analysis.ipynb` in Jupyter Notebook
 - For interactive charts, run in Google Colab or a local environment with Plotly installed.
-
-## Limitations & Potential Improvements in The Future
-
-**Limitations:**
-
-- Limited dataset granularity: match-level stats and player-level contributions are not considered
-- Financial data are unavailable or approximate.
-
-**Future Work:**
-
-- Integrate match-level or player-level datasets for advanced metrics (e.g., xGA, pressing, possession).  
-- Develop interactive dashboards for storytelling.
-- Include amount earned transfer departures to have better understanding about their earning & spending habit, and to determine whether this factor will emphasize their weakness in financial management.
-- Comparative analysis with other top clubs over the same period.
 
 ## Tools and Technologies
 
