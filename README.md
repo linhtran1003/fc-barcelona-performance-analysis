@@ -30,6 +30,8 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 - **Transfer Market Data** - Transfer spend (€M)
 - **Squad Cost Limit Data** - Published by La Liga, defines the maximum amount clubs can spend on salaries, amortization, and agent fees.
 
+`Note that financial data includes the data of latest season at the time of working on this analysis (2025/26)`
+
 ## Executive Summary
 
 ![Overall Insights](./outputs/figures/overall_key_insights.png)
