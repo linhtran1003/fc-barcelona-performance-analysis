@@ -7,7 +7,7 @@
 <h1 align="center">
     Performance and Financial Analysis of FC Barcelona
     <br>
-    <span style="font-size: 20px;">
+    <span style="font-size: 22px">
         A Decade of Evolution and Recurring Challenges in Competitions
     </span>
 </h1>
