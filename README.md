@@ -7,7 +7,7 @@
 <h1 align="center">
     Performance and Financial Analysis of FC Barcelona
     <br>
-    <span style="font-size: 22px;">
+    <span style="font-size: 20px;">
         A Decade of Evolution and Recurring Challenges in Competitions
     </span>
 </h1>
@@ -26,7 +26,7 @@ This project explores FC Barcelona’s performance trends across La Liga and the
 
 - **La Liga season-level Stats (2014–2024/25)** - Contains season-by-season performance metrics such as Goals For (GF), Goals Against (GA), Goal Difference (GD), and final league rank
 - **Deeper ball situations breakdown** - Open play, free kicks, corners & Expected Goals (xG) based on situation
-- **UEFA Champions League Stats (2014–2024/25)** - Includes stage progression (Group, Round of 16, QF, SF, Final), goals, and match outcomes
+- **UEFA Champions League Stats (2014–2024/25)** - Includes stage progression (Group Stage, Round of 16, QF, SF, Final), goals, and match outcomes
 - **Transfer Market Data** - Transfer spend (€M)
 - **Squad Cost Limit Data** - Published by La Liga, defines the maximum amount clubs can spend on salaries, amortization, and agent fees.
 
