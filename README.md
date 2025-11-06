@@ -134,7 +134,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 ![UCL Stage Progression and Scoring Trends](./outputs/figures/ucl_stage_progression_and_stats.png)
 
 - Since the 2014/15 UCL title, Barcelona consistently struggled in knock-out rounds of UEFA Champions League, with **7 early exits in the last 10 seasons**.
-- Their performance fluctuated post-2018/19 and reached lowest level in 2021/22.They were demoted to the Europa League in 2021/22 and 2022/23 after failing the group stage at UCL, highlighting the club was unable to compete at high-level competition intensity during its financial crisis.
+- Their performance fluctuated post-2018/19 and reached lowest level in 2021/22. They were demoted to the Europa League in 2021/22 and 2022/23 after failing the group stage at UCL, highlighting the club was unable to compete at high-level competition intensity during its financial crisis.
 - Although goals scored slightly improved the following seasons, defensive collapses in key matches (e.g., away legs) severely limited UCL progression.
 - The 2024/25 run again emphasizes a persisten weakness in defense with highest goals scored but also highest goals conceded in 10 years and again eliminated in Semi-Finals.
 - While their attacking performance significantly improves and remains relatively strong, defensive vulnerabilities at decisive moments continue to limit their success in international competitions.
@@ -175,7 +175,7 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 - Financial collapse (2020–2022) restricted squad-building capacity
 - Efficiency declines (finishing and defensive) negatively final outcomes
 - UCL performance drop mirrors domestic instability
-- Financial flexibility strongly predicts competitive performance
+- Financial flexibility strongly reflects competitive performance
 - Overall, the **correlation between financial constraints and team performance** is evident: Financial restrictions have reduced squad's depth as the club is unable to sign high-quality players, increasing dependence on current key players, who shouldn’t be expected to perform in every match.
 - **Key Takeaways**:
 
@@ -184,7 +184,8 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 ## Recommendations
 
 - FC Barcelona's challenges extends beyond tactics - the club **must restore its long-term financial stability** to rebuild their position as one of top-tier clubs and regain their competitiveness against other rivals.
-- Whether in financial crisis or when restored to its stable state, it is important optimize transfer strategy, and carefully manage squad depth.
+- Optimize recruitment efficiency for high-value player acquisitions
+- Use data-driven performance monitoring to guide tactical and operational decisions
 
 ## Limitations & Potential Improvements in The Future
 
