@@ -140,7 +140,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 - The 2024/25 run again emphasizes a persisten weakness in defense with highest goals scored but also highest goals conceded in 10 years and again eliminated in Semi-Finals.
 - While their attacking performance significantly improves and remains relatively strong, defensive vulnerabilities at decisive moments continue to limit their success in international competitions.
 
-#### → Insight Summary
+#### → Insight Summary About Performance
 
   Overall finishing inefficiency post-2020 especially when combined with defensive issues, may have cost Barcelona decisive points in both domestic and international competitions
 
