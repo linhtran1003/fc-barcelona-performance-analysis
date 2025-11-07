@@ -142,7 +142,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 #### → Insight Summary
 
-    Overall finishing inefficiency post-2020 especially when combined with defensive issues, may have cost Barcelona decisive points in both domestic and international competitions
+  Overall finishing inefficiency post-2020 especially when combined with defensive issues, may have cost Barcelona decisive points in both domestic and international competitions
 
 ### 🟠 Insights About Amount Spending on Transfer Market
 
