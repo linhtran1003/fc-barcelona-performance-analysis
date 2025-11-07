@@ -13,7 +13,7 @@
   </h2>
 </div>
 
-## Background & Overview
+<h2 align="center"> Background & Overview </h2>
 
 After the historic treble in 2014/15, FC Barcelona faced a decade of highs and lows. On-field performance fluctuated, defensive stability declined, and financial instability forced major structural adjustments. This project investigates the club’s:
 
@@ -27,8 +27,8 @@ The analysis aims to uncover how financial and operational decisions correlate w
 
 `How did FC Barcelona go from European dominance to financial and competitive instability, and what factors explain their decline and recovery?`
 
-## Data Overview
-
+<h2 align="center"> Data Overview </h2>
+ 
 <table style="width:100%">
   <tr>
     <th>Dataset</th>
@@ -69,7 +69,7 @@ The analysis aims to uncover how financial and operational decisions correlate w
 
 `Note: Squad Cost Limit is officially published from 2019/20 onwards.`
 
-## Executive Summary
+<h2 align="center"> Executive Summary </h2>
 
 ![Overall Insights](./outputs/figures/overall_key_insights.png)
 
@@ -103,7 +103,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 > This is an interactive dashboard created by `plotpy`. Run in Google Colab or a local environment with Plotly installed to explore more information on the plot.
 
-## Insight Deep Dive & Visualizations
+<h2 align="center"> Insight Deep Dive & Visualizations </h2>
 
 ### 🟣 Insights About FC Barcelona's Performance in Domestic Competition over The Past Decade
 
@@ -173,7 +173,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 - While transfer spending & win rate shows weaker correlation (r = 0.04), reinforcing that the problem wasn’t money spent, but **money spent inefficiently**.
 - Financial and performance variables align strongly after 2020, indicating the club’s competitive decline was deeply tied with financial, not only tactical.
 
-## Conclusion
+<h2 align="center"> Conclusion </h2>
 
 FC Barcelona’s decline cannot be explained by performance metrics alone. Instead, the combined analysis shows:
 
@@ -187,7 +187,7 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 
 `Business lesson: This analysis demonstrates that operational and financial efficiency are as crucial as talent. Long-term success depends on strategic resource allocation, performance monitoring, and financial discipline - lessons relevant across industries.`
 
-## Recommendations
+<h2 align="center"> Recommendations </h2>
 
 - Improving Finishing Efficiency Across All Situations:
   - Target combined GF/xG > 1.10 (current ≈ 0.81) through
@@ -200,7 +200,7 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
   - Optimize recruitment efficiency for high-value player acquisitions
   - Use data-driven performance & scouting to guide tactical and operational decisions
 
-## Limitations & Potential Improvements in The Future
+<h2 align="center"> Limitations & Potential Improvements in The Future </h2>
 
 **Limitations:**
 
