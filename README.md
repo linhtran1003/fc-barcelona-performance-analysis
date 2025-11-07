@@ -111,7 +111,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 - Goals scored declined 41% from their peak of 116 (2016/17) to 68 (2021/22).
 - Win rate declined from 79% (2014/15) to 55% (2021/22), indicating loss of competitiveness and cosistency.
-- Despite scoring fewer goals in 2022/23, Barcelona improved their ranking due to a 47% reduction in goals conceded, reflecting tactical restructuring and emphasizing the importance of compact defense beside pure attacking output.
+- Despite fluctuations in goals scored, league rank did not always follow the same pattern, indicating that defensive stability and match consistency played a crucial role in match and league outcomes.
 
 ### 🟡 Insights About Their Weakenesses in Defense Based on Scoring Trends
 
@@ -119,7 +119,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 - The line charts above illustrate goals distribution of FCB over the past 10 years. As shown by 2nd chart, the goal difference (goals scored - goals against) decreased gradually after 2016. This indicates that although the team maintained strong attacking numbers throughout the decade, but goals conceded increased steadily after 2016, reducing goal difference each season.
 - Goals conceded increased 81% between 2014/15 (21 GA) and 2021/22 (38 GA). The 2021/22 season shows the most severe imbalance: lowest goals scored (68) + unusually high goals conceded (38), producing the decade’s lowest goal difference.
-- The 2022/23 season marked a defensive turnaround as goals conceded dropped to the lowest level in 10 years (20 GA) improved efficiency by 47%, coinciding with managerial and tactical changes.
+- - Despite scoring fewer goals in 2022/23, this season marked a defensive turnaround as Barcelona improved their ranking due to a 47% reduction in goals conceded, coinciding with managerial and tactical changes - which reflected tactical restructuring and emphasized the importance of compact defense beside pure attacking output.
 - However, the subsequent 23/24 season raised questions about their consistency. Despite tactical improvement, the team’s defensive performance deteriorated, with goals conceded reaching their highest level in a decade (44). This suggests that besides manager - other factors such as player dependency or financial situation - may have influenced their on-pitch performance, especially in defense.
 
 ### 🔴 Insights About Their Finishing Efficiency Based on Goals-For (GF) and Expected-goals (xG)
