@@ -207,8 +207,7 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 
 **Future Work:**
 
-- Integrate match-level or player-level datasets for advanced metrics (e.g., xGA, pressing, possession).  
-- Develop interactive dashboards for storytelling.
+- Integrate match-level or player-level datasets for advanced metrics (e.g., minutes played, passes, pressing, possession)  
 - Include amount earned from transfer departures to have better understanding about their earning & spending habit, and to determine whether this factor will emphasize their weakness in financial management.
 - Comparative analysis with other top clubs over the same period.
 
