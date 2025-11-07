@@ -112,7 +112,6 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 - Goals scored declined 41% from their peak of 116 (2016/17) to 68 (2021/22).
 - Win rate declined from 79% (2014/15) to 55% (2021/22), indicating loss of competitiveness and cosistency.
 - Despite scoring fewer goals in 2022/23, Barcelona improved their ranking due to a 47% reduction in goals conceded, reflecting tactical restructuring and emphasizing the importance of compact defense beside pure attacking output.
-- Despite fluctuations in goals scored, league rank did not always follow the same pattern, indicating that defensive stability and match consistency played a crucial role in match and league outcomes.
 
 ### 🟡 Insights About Their Weakenesses in Defense Based on Scoring Trends
 
