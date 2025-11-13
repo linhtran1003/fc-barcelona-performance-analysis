@@ -171,6 +171,7 @@ This project provides a decade-long evaluation of FC Barcelona’s performance, 
 
 - Squad Cost Limit and win rate show a strong positive correlation (r = 0.71), showing financial flexibility improves competitive performance.
 - While transfer spending & win rate shows weaker correlation (r = 0.04), reinforcing that the problem wasn’t money spent, but **money spent inefficiently**.
+- Squad Cost Limit and Transfer Spending also show a strong positive correlation (r = 0.71), which is unsurprising. However, this indicates that Barcelona’s issue is not the lack of funds for the transfer fees, but rather the constraints imposed by player salaries. Even when the club can afford transfer fees, registering new signings often becomes problematic due to La Liga’s strict Squad Cost Limit regulations.
 - Financial and performance variables align strongly after 2020, indicating the club’s competitive decline was deeply tied with financial, not only tactical.
 
 <h2 align="center"> Conclusion </h2>
@@ -209,8 +210,9 @@ FC Barcelona’s decline cannot be explained by performance metrics alone. Inste
 
 **Future Work:**
 
-- Integrate match-level or player-level datasets for advanced metrics (e.g., minutes played, passes, pressing, possession)  
-- Include amount earned from transfer departures to have better understanding about their earning & spending habit, and to determine whether this factor will emphasize their weakness in financial management.
+- Integrating match-level or player-level datasets for advanced metrics (e.g., minutes played, passes, pressing, possession)  
+- Including amount earned from transfer departures to have better understanding about their earning & spending habit, and to determine whether this factor will emphasize their weakness in financial management.
+- Including players salary to better visualize the importance of Squad Cost Limit, how it works, and how it affects the club's trasnfer activities.
 - Comparative analysis with other top clubs over the same period.
 
 ## How to run
